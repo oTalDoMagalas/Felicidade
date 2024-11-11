@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(inter.png);
+    height: 10%;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    display: flex;
+    gap: 15px;
+    width: 300px;
+    flex-direction: column;
+}
+
+.adicionar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.212);
+    width: 350px;
+    padding: 25px;
+    border-radius: 7px;
+    backdrop-filter: blur(25px);
+    display: 20%;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px;
+}
+
+input[type="submit"] {
+    background-color: rgb(255, 140, 0);
+    width: 119px;
+    height: 30px;
+    border: solid 3px #ff8800;
+
+}
+
+table {
+    display: flex;
+    justify-content: flex-end;
+    border: 0;
+    margin-right: 9rem;
+}
+
+table th,table td {
+    border: solid 2px #000000;
+    padding: 5px;
+}
+table a {
+    text-decoration:none;
+    color: #000000;
+    padding: 5px;
+}
+h2{
+    color: #000000;
+    text-align: end;
+    padding: 30px;
+    margin-right: 20rem;
+    font-size: 2em;
+    margin-top: -20%;
+}
